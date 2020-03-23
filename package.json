@@ -1,0 +1,52 @@
+{
+  "name": "datastructures_ts_js",
+  "version": "1.0.0",
+  "description": "a library for all data structures !",
+  "main": "dist/data-Structures.cjs.js",
+  "module": "dist/data-Structures.esm.js",
+  "scripts": {
+    "clean": "find -O3 -L ./src -name '*.js' -delete",
+    "build": "rollup -c && tsc",
+    "start": "nodemon dist/data-Structures.cjs.js"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Echcharqui/DataStructures_TS_JS.git"
+  },
+  "keywords": [
+    "data",
+    "structures",
+    "data-structures",
+    "dataStructures",
+    "data structures"
+  ],
+  "author": "Echcharqui Hamza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Echcharqui/DataStructures_TS_JS/issues"
+  },
+  "homepage": "https://github.com/Echcharqui/DataStructures_TS_JS#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^1.19.1",
+    "rollup": "^2.1.0",
+    "rollup-plugin-delete": "^1.2.0",
+    "rollup-plugin-terser": "^5.3.0",
+    "rollup-plugin-typescript2": "^0.26.0",
+    "typescript": "^3.8.3"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
