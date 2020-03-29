@@ -11,13 +11,20 @@
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
     },
+    "parser": "@typescript-eslint/parser", // Specifies the ESLint parser
+
+    "parserOptions": {
+      "ecmaVersion": 2018, // Allows for the parsing of modern ECMAScript features
+      "sourceType": "module" // Allows for the use of imports
+    },
     // "parser": "@typescript-eslint/parser",
     // "parserOptions": {
     //     "ecmaVersion": 2018
     // },
-    // "plugins": [
-    //     "@typescript-eslint"
-    // ],
+    "plugins": [
+        "@typescript-eslint"
+    ],
     "rules": {
     }
 }
+

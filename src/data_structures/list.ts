@@ -1,4 +1,4 @@
-// import doubly_linked_list from './list/doubly_linked_list';
+import SinglyLinkedList from './list/singlyLinkedList'
+import DoublyLinkedList from './list/DoublyLinkedList'
 
-
-// export {doubly_linked_list}; 
+export { SinglyLinkedList, DoublyLinkedList }
