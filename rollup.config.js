@@ -1,8 +1,8 @@
-import typescript from 'rollup-plugin-typescript2';
+// import typescript from 'rollup-plugin-typescript2';
 import {terser} from "rollup-plugin-terser";
 import del from 'rollup-plugin-delete'
 export default {
- input: 'src/main.ts', // our source file
+ input: 'lib/index.js', // our source file
  output: [
   {
    file: "dist/data-Structures.cjs.js",
@@ -22,9 +22,9 @@ export default {
 //   ...Object.keys(pkg.dependencies || {})
 //  ],
  plugins: [
-  typescript({
-   typescript: require('typescript'),
-  }),
+  // typescript({
+  //  typescript: require('typescript'),
+  // }),
   del(["dist/*"]),
   terser() // minifies generated bundles
  ]

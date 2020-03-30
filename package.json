@@ -4,13 +4,17 @@
   "description": "a library for all data structures !",
   "main": "dist/data-Structures.cjs.js",
   "module": "dist/data-Structures.esm.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
+    "reset": "rm -rf lib/ dist/",
+    "compile": "tsc",
     "clean": "find -O3 -L ./src -name '*.js' -delete",
-    "build": "rollup -c && tsc",
+    "build": "rollup -c",
     "start": "nodemon dist/data-Structures.cjs.js"
   },
   "files": [
-    "dist/*"
+    "dist/*",
+    "lib/*"
   ],
   "repository": {
     "type": "git",
