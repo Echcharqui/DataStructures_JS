@@ -1,5 +1,6 @@
-import { SinglyLinkedList, DoublyLinkedList } from "./data_structures/list"
-
-
-
-export {SinglyLinkedList,DoublyLinkedList}
+import {
+  SinglyLinkedList,
+  DoublyLinkedList,
+  SinglyCircularLInkedLIst
+} from "./data_structures/list";
+export { SinglyLinkedList, DoublyLinkedList, SinglyCircularLInkedLIst };
