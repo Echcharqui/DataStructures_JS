@@ -1,7 +1,7 @@
 {
   "name": "datastructures_js",
-  "version": "1.0.0",
-  "description": "a library for all data structures !",
+  "version": "2.0.0",
+  "description": "datastructures_js is a library which provide easy access and usage to data structures in a javascript and typescript code.",
   "main": "dist/data-Structures.cjs.js",
   "module": "dist/data-Structures.esm.js",
   "typings": "lib/index.d.ts",
