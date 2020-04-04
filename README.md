@@ -1,6 +1,7 @@
-# <span style="color:#00a000">DataStructures_js</span>
+# DataStructures_js
+![GitHub](https://img.shields.io/github/license/echcharqui/DataStructures_JS)
 
-<span style="color:#00a000">**Datastructures_js**</span> is a library which provide easy access and usage of data structures in a <span style="color:#ffff00">**Javascript**</span> and <span style="color:#3779bb">**Typescript**</span> codes.
+**Datastructures_js** is a library which provide easy access and usage of data structures in a **Javascript** and **Typescript** codes.
 
 ## Installation
 
