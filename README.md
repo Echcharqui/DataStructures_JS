@@ -13,7 +13,7 @@ ___
 ## usage
 for exmple for exmple we want to use a one specific or multiple data structures and algorithms ?
 
-in this case we first need to import what we want from the library that support the importation using the both statements:  __*"import {}"*__  Or __*"require"*__ 
+in this case we first need to import what we want from the library that support the importation using the both statements:  __*"import"*__  and __*"require"*__ 
 >using the **ES6** _import_
 
 ```javascript
@@ -68,5 +68,6 @@ ___
 
 | data structures and algorithms  | class name       | type | dev state | usage documentation            |
 |--------------------------------:|------------------|------|-----------|--------------------------------|
-| singly linked list              | SinglyLinkedList |  DS  |  compate  | [Click here !](https://#)      |
-|                                 |                  |      |           |                                |
+| singly linked list              | SinglyLinkedList |  DS  | complete  | [Click here !](https://#)      |
+| doubly linked list              | DoublyLinkedList |  DS  | complete  | [Click here !](https://#)      |
+| stack                           | Stack            |  DS  | complete  | [Click here !](https://#)      |
