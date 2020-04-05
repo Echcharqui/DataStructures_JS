@@ -66,7 +66,7 @@ ___
 
 ## all your need
 
-| data structures and algorithms  | class name | type | dev state | usage documentation |
-|--------------------------------:|------------|------|-----------|---------------------|
-| test                            |            |      |           |                     |
-|                                 |            |      |           |                     |
+| data structures and algorithms  | class name       | type | dev state | usage documentation            |
+|--------------------------------:|------------------|------|-----------|--------------------------------|
+| singly linked list              | SinglyLinkedList |  DS  |  compate  | [Click here !](https://#)      |
+|                                 |                  |      |           |                                |
