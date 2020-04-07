@@ -87,3 +87,6 @@ in this table you gonna find all data structures and algorithms in the library w
 [slak]: https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm
 
 >## <span id="license">License</span>
+the library is under an MIT license.
+
+you can check the license [here !](https://github.com/Echcharqui/DataStructures_JS/blob/master/LICENSE)
