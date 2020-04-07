@@ -77,7 +77,7 @@ in this table you gonna find all data structures and algorithms in the library w
 
 | data structures and algorithms| class name       | type | dev state | usage documentation            |
 |------------------------------:|------------------|------|-----------|--------------------------------|
-| [singly linked list][sl]      | SinglyLinkedList |  DS  | complete  | [Click here !](https://#)      |
+| [singly linked list][sl]      | SinglyLinkedList |  DS  | complete  | [Click here !](https://github.com/Echcharqui/DataStructures_JS/wiki/singly-linked-list)      |
 | [doubly linked list ][dl]     | DoublyLinkedList |  DS  | complete  | [Click here !](https://#)      |
 | [stack][slak]                 | Stack            |  DS  | complete  | [Click here !](https://#)      |
 
