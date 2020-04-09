@@ -186,7 +186,7 @@ class DoublyLinkedLIst<T> extends SuperList<T> {
     for (let i = 0; i < this._length; i++) {
       if (this.current.getData === value) {
         this.prev = this.current.getPrev
-        this.next = this.current.setNext
+        this.next = this.current.getNext
         if (this.prev !== null && this.next != null) {
           this.prev.setNext = this.next
           this.next.setPrev = this.prev
