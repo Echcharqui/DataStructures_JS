@@ -79,7 +79,7 @@ in this table you gonna find all data structures and algorithms in the library w
 |------------------------------:|------------------|------|-----------|--------------------------------|
 | [singly linked list][sl]      | SinglyLinkedList |  DS  | complete  | [Click here !](https://github.com/Echcharqui/DataStructures_JS/wiki/singly-linked-list)      |
 | [doubly linked list ][dl]     | DoublyLinkedList |  DS  | complete  | [Click here !](https://github.com/Echcharqui/DataStructures_JS/wiki/DoublyLinkedList)      |
-| [stack][slak]                 | Stack            |  DS  | complete  | [Click here !](https://#)      |
+| [stack][slak]                 | Stack            |  DS  | complete  | [Click here !](https://github.com/Echcharqui/DataStructures_JS/wiki/Stack)      |
 
 
 [sl]: https://www.tutorialspoint.com/data_structures_algorithms/linked_list_algorithms.htm

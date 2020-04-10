@@ -17,7 +17,7 @@ class Stack<T> extends SuperStack<T> {
       this.stack = new Array(size)
       this.isDynamic = false
     } else {
-      this.stack = new Array()
+      this.stack = []
       this.isDynamic = true
     }
   }
@@ -31,7 +31,7 @@ class Stack<T> extends SuperStack<T> {
     } else {
       if (this.top === this.stackSize - 1) {
         throw new Error(
-          "\t-Stack overflow you can't add values to this stack anymore !!\n\t-POP() a value(s) for more free space in the stack "
+          "\t-Stack overflow you can't add values to this stack anymore !!\n\t-POP() a value for more free space in the stack !"
         )
       } else {
         this.stack.push(value)
@@ -88,7 +88,7 @@ class Stack<T> extends SuperStack<T> {
   }
 
   // copy the stack contents to the geving array !
-  public copyToArray (array: T[], startIndex?: number) {
+  public copyToArray (array:any[], startIndex?: number) {
     if (this.top > -1) {
       for (let i = startIndex || 0; i <= this.top; i++) {
         array.push(this.stack[i])

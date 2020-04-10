@@ -9,6 +9,7 @@ This is the implementation of [Singly linked list][link1] on **JavaScript** and 
     * [using import](#import)
     * [using require](#require)
 * [**About the class**](#about)
+* [**About the singly linked list node**](#about_Node)
 * [**Constructors**](#Constructors)
 * [**Properties**](#Properties)
 * [**Methods**](#Method)
@@ -86,6 +87,33 @@ ___
 
 ### Inheritance
 SuperList< T > => SinglyLinkedList< T >
+___
+>## <span id="about_Node">About the singly linked list node</span>
+the singly linked list class use Nodes to stock data, and each node has 3 properties:
+* **getData** : this properties return the stored data inside the node.
+* **getIndex** : this properties return the node index inside the list.
+* **getNext** : this properties return the next node which the current link to.
+
+an exemple for using this properties;
+```javascript
+    //javascript
+    import { SinglyLinkedList } from "dataStructures_js"
+
+    // create an instance with 2 different value types [string] and [number]!
+    const my_singly_list = new SinglyLinkedList("alpha",17);
+
+    my_singly_list.forEach(node=>{
+        console.log({
+            index: node.getIndex,
+            data:node.getData,
+            next:node.getNext
+        })
+    })
+    // that's log
+    // { index:0, data:"alpha", next:[Object] }
+    // { index:1, data:17, next:NULL }
+
+```
 ___
 >## <span id="Constructors">Constructors</span> 
 | javaScript                              | typeScript                                        | description                                                                                                                    |
@@ -500,7 +528,7 @@ params:
 data type return is :
 | **Return** |   
 |------------|
-| _void_ 	 |
+| _node_ 	 |
 
 Ο Notation :
 | **Ο Notation** |   
@@ -535,7 +563,7 @@ params:
 data type return is :
 | **Return** |   
 |------------|
-| _void_ 	 |
+| _node_ 	 |
 
 Ο Notation :
 | **Ο Notation** |   
@@ -754,12 +782,12 @@ myList.forEach(node=>{
 params:
 | **name**           | type |
 |----------        |----- |
-| _null_     | null |
+| _callback_     | function |
 
 data type return is :
 | **Return** |   
 |------------|
-| _array_ 	 |
+| _node_ 	 |
 
 Ο Notation :
 | **Ο Notation** |   

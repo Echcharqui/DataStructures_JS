@@ -9,6 +9,7 @@ This is the implementation of [Doubly Linked Listt][link1] on **JavaScript** and
     * [using import](#import)
     * [using require](#require)
 * [**About the class**](#about)
+* [**About the Doubly Linked List node**](#about_Node)
 * [**Constructors**](#Constructors)
 * [**Properties**](#Properties)
 * [**Methods**](#Method)
@@ -91,6 +92,35 @@ ___
 
 ### Inheritance
 SuperList< T > => DoublyLinkedLIst< T >
+___
+>## <span id="about_Node">About the Doubly Linked Listt node</span>
+the singly linked list class use Nodes to stock data, and each node has 3 properties:
+* **getData** : this properties return the stored data inside the node.
+* **getIndex** : this properties return the node index inside the list.
+* **getNext** : this properties return the next node which the current link to.
+* **getPrev** : this properties return the previews node which the current link to.
+
+an exemple for using this properties;
+```javascript
+    //javascript
+    import { DoublyLinkedLIst } from "dataStructures_js"
+
+    // create an instance with 2 different value types [string] and [number]!
+    const my_doubly_list = new DoublyLinkedLIst("alpha",17);
+
+    my_doubly_list.forEach(node=>{
+        console.log({
+            index: node.getIndex,
+            data:node.getData,
+            prev:node.getPrev
+            next:node.getNext,
+        })
+    })
+    // that's log
+    // { index:0, data:"alpha", prev:Null, next:[Object]}
+    // { index:1, data:17, prev:[Object], next:Null }
+
+```
 ___
 >## <span id="Constructors">Constructors</span> 
 | javaScript                              | typeScript                                        | description                                                                                                                    |
